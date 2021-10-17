@@ -1,0 +1,181 @@
+*
+{
+    margin:0;
+    padding:0;
+   box-sizing: border-box;
+}
+body
+{
+    font-family: 'karla' ,sans-serif;
+}
+section
+{
+    height:36vh;
+    padding:30px;
+}
+
+.MS
+{
+    background-color: rgb(88,176,176);
+    float: left;
+    width:50%;
+    color:white;
+    font-size: 18px;
+
+}
+.WU
+{
+    background-color: rgb(112, 214, 214);
+    float:right;
+    width:50%;
+    color:white;
+    font-size: 18px;
+}
+span
+{
+    font-size: 25px;
+}
+h1
+{
+    color:rgb(88,176,176);
+    font-weight: bolder;
+    font-size:30px ;
+}
+.green
+{
+    margin-top:20px;
+   font-size: 20px;
+   color:rgb(47, 153, 47);
+   font-weight: bolder;
+
+}
+.grey
+{
+    margin-top:20px;
+    font-size: 20px;
+    color:darkgrey;
+    font-weight: bolder;
+}
+
+button
+{
+    background-color: yellowgreen;
+    margin:20px;
+    padding-left:80px;
+    padding-right: 80px;
+    padding-top:10px;
+    padding-bottom:10px;
+    color:white;
+    font-size: 20px;
+}
+
+@media screen and (min-width:320px)
+{
+    h1{
+        font-size: 1.2rem;
+    }
+    .green{
+        font-size: 0.8rem;
+        margin-top: 10px;
+    }
+    .grey
+    {
+        font-size: 0.8rem;
+        margin-top: 10px;
+    }
+    .MS
+    {
+        height:30vh;
+        width:100%;
+        font-size: 0.8rem;
+    }
+    .WU
+    {
+        height:30vh;
+        width:100%;
+        font-size: 0.8rem;
+    }
+  button{
+    margin:5px;
+    padding-left:20px;
+    padding-right: 30px;
+    padding-top:10px;
+    padding-bottom:10px;
+    color:white;
+    font-size: 8px;
+  }
+}
+@media screen and (min-width:768px)
+{
+    h1{
+        font-size: 1.2rem;
+    }
+    .green{
+        font-size: 0.8rem;
+        margin-top: 10px;
+    }
+    .grey
+    {
+        font-size: 0.8rem;
+        margin-top: 10px;
+    }
+    .MS
+    {
+        height:30vh;
+        width:100%;
+        font-size: 0.8rem;
+    }
+    .WU
+    {
+        height:30vh;
+        width:100%;
+        font-size: 0.8rem;
+    }
+  button{
+    margin:5px;
+    padding-left:20px;
+    padding-right: 30px;
+    padding-top:10px;
+    padding-bottom:10px;
+    color:white;
+    font-size: 8px;
+  }
+}
+@media screen and (min-width:1024px)
+{
+    h1{
+        font-size: 35px;
+    }
+    .green
+    {
+        font-size: 1.5rem;
+    }
+    .grey
+    {
+        font-size: 1.2rem;
+    }
+    .MS
+    {
+        height:50vh;
+        width:50%;
+        font-size: 1.2rem;
+        float:left;
+    
+    }
+    button{
+        margin:5px;
+        padding-left:80px;
+        padding-right: 80px;
+        padding-top:10px;
+        padding-bottom:10px;
+        color:white;
+        font-size: 18px;
+      }
+    .WU
+    {
+        height:50vh;
+        width:50%;
+        font-size: 1.2rem;
+        float:right;
+    }
+}
