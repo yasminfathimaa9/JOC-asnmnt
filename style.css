@@ -19,6 +19,7 @@ section
     background-color: rgb(88,176,176);
     float: left;
     width:50%;
+    height:60vh;
     color:white;
     font-size: 18px;
 
@@ -43,7 +44,7 @@ h1
 }
 .green
 {
-    margin-top:20px;
+    margin-top:25px;
    font-size: 20px;
    color:rgb(47, 153, 47);
    font-weight: bolder;
@@ -67,6 +68,7 @@ button
     padding-bottom:10px;
     color:white;
     font-size: 20px;
+    border: none;
 }
 
 @media screen and (min-width:320px)
@@ -85,9 +87,10 @@ button
     }
     .MS
     {
-        height:30vh;
+        height:40vh;
         width:100%;
-        font-size: 0.8rem;
+        font-size: 1rem;
+        
     }
     .WU
     {
@@ -139,6 +142,7 @@ button
     padding-bottom:10px;
     color:white;
     font-size: 8px;
+    border: none;
   }
 }
 @media screen and (min-width:1024px)
@@ -156,7 +160,7 @@ button
     }
     .MS
     {
-        height:50vh;
+        height:100vh;
         width:50%;
         font-size: 1.2rem;
         float:left;
@@ -170,12 +174,18 @@ button
         padding-bottom:10px;
         color:white;
         font-size: 18px;
+        border: none;
       }
     .WU
     {
-        height:50vh;
+        height:100vh;
         width:50%;
         font-size: 1.2rem;
         float:right;
     }
+    .bold
+    {
+        font-size: 25px;
+    }
+   
 }
